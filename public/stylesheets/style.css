@@ -1,8 +1,32 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+.header {
+  background-color: #ffa600;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header-title {
+    color: #fff;
+    font-weight: 600; }
+  .header-nav__link {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 600; }
+    .header-nav__link:hover {
+      color: #000; }
 
-a {
-  color: #00B7FF; }
+html {
+  font-size: 10px; }
+  html body {
+    font-size: 1.6rem;
+    margin: 0; }
+    html body p {
+      margin: 0; }
+    html body .container {
+      width: 128rem; }
+      html body .container--content-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
